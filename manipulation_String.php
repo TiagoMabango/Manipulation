@@ -59,9 +59,9 @@ echo "<p style='color:green; font-size:20px;'>" ." Usando <span style='color:#08
  
  
  echo "<p>",$mbReplace ,"</p>";
- echo "<p>",str_replace("AD/DC","Nirvana",$mbReplace) ,"</p>";
- echo "<p>",str_replace(["AD/DC","eu fui","último"],"Nirvana",$mbReplace) ,"</p>";
- echo "<p>",str_replace(["AD/DC","íncrivel"],["Nirvana","épicooo"],$mbReplace) ,"</p>";
+ echo "<p>",str_replace("PHP","We are PHP",$mbReplace) ,"</p>";
+ echo "<p>",str_replace(["PHP","eu fui","último"],"We are PHP",$mbReplace) ,"</p>";
+ echo "<p>",str_replace(["PHP","íncrivel"],["We are PHP","épicooo"],$mbReplace) ,"</p>";
  
  
  echo "<p style='color:green; font-size:20px;'>" ." Usando <span style='color:#088'> EndPoint</span>" ."</p>";
